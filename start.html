@@ -12,5 +12,12 @@
 <body>
 <h2>Czas na naukę :-)</h2>
 </body>
-
+<form method="POST" action="start.html">
+<?php 
+$name = $_POST['username'];
+$password = $_POST['password']
+?>
+<input name="username" type="text">"<?php print $name; ?>"<br>
+<input name="password" type="password">"<?php print $password; ?>"<br>
+<button type="submit" class="btn" name="reg_user">Register</button>
 </html>
