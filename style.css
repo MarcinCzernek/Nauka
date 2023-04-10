@@ -1,0 +1,20 @@
+body{
+	background-color : aqua;
+}
+.flex_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+    
+}
+.item{
+	 background-color: violet;
+	 margin: auto;
+	  padding: 50px;
+}
+.item:nth-child(even){
+	 background-color: orange;
+	 margin: auto;
+	
+}
